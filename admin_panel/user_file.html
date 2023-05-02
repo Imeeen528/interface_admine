@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User File List</title>
+    <link rel="stylesheet" type="text/css" href="user_file.css">
+</head>
+<body>
+    <div class="container">
+        <h1>User File List</h1>
+        <form>
+            <label for="user-id">User ID:</label>
+            <input type="text" id="user-id" name="user-id">
+            <button type="button" onclick="getUserFiles()">Get Files</button>
+        </form>
+        <div id="file-list">
+            <!-- This is where the file list will be displayed -->
+        </div>
+    </div>
+
+    <script src="user_file.js"></script>
+</body>
+</html>
